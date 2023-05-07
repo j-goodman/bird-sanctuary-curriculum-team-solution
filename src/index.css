@@ -1,0 +1,68 @@
+header {
+  background: rgb(195, 247, 235);
+  padding: 1em;
+  box-shadow: 1px 1px 6px gray;
+  margin-bottom: 0.75em;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+aside {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100vh;
+}
+aside > div {
+  min-height: 40vh;
+}
+.birds {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20%;
+  padding: 0.5em 3em;
+  margin: 1em;
+  border-radius: 4px;
+  box-shadow: 3px 3px 8px dimgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(229, 250, 245);
+}
+
+.card img {
+  max-width: 70%;
+  margin: auto;
+  box-shadow: 1px 1px 6px grey;
+}
+
+.Cart,
+.Checkout {
+  width: 100%;
+  padding: 0.3em;
+  margin: 1em 0em;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.75em;
+}
